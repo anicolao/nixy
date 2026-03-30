@@ -2,3 +2,9 @@ nixos-vm.tar.gz
 nixos-vm/
 gce
 result
+node_modules/
+package-lock.json
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
