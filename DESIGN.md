@@ -31,7 +31,7 @@ Create a NixOS-based virtual machine image that provides a browser-accessible de
 
 ## 4. Build & Test Path
 *   **Local Build:** `nix build .#nixosConfigurations.nixy-gce.config.system.build.googleComputeImage`
-*   **Local Test:** Extract `disk.raw` from the result and run via QEMU using `run-gce-image-qemu.sh`.
+*   **Local Test:** Extract `disk.raw` from the result and run via QEMU using `./scripts/run-qemu.sh`.
 *   **Cloud Deployment:** Upload the `*.raw.tar.gz` to GCS and create a GCE image.
 
 ## 5. Security Considerations
