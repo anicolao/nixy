@@ -1,0 +1,25 @@
+{
+  "name": "nixy",
+  "version": "1.0.0",
+  "description": "This project is a proof of concept to evaluate the viability of a browser-accessible, cloud-hosted Linux desktop environment. This PoC serves as the foundational infrastructure testing ground for \"Nixy\" (working title), a visionary AI-powered desktop OS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anicolao/nixy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anicolao/nixy/issues"
+  },
+  "homepage": "https://github.com/anicolao/nixy#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "typescript": "^6.0.2"
+  }
+}
