@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs }: {
     nixosConfigurations.nixy-gce = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+      system = "aarch64-linux";
       modules = [
         "${nixpkgs}/nixos/modules/virtualisation/google-compute-image.nix"
         ./configuration.nix

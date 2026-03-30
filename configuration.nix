@@ -34,8 +34,6 @@
     recommendedProxySettings = true;
     recommendedTlsSettings = true;
     virtualHosts."localhost" = {
-      forceSSL = true;
-      selfSigned = true;
       locations."/" = {
         proxyPass = "https://127.0.0.1:6901";
         proxyWebsockets = true;
